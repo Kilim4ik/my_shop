@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>My shop</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container header__cont">
+            <div class="logo-container">
+                <a href="#">
+                    <div class="spinner-border text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">Головна</li>
+                    <li class="navigation__item">Всі пакети</li>
+                </ul>
+
+            </nav>
+            <address class="address">
+                <a href="tel:0682664230">Занято , не дзвонити!</a>
+            </address>
+            <div class="mobile-menu">
+
+                <input class="mobile-menu__button js-open-menu js-close-menu" type="checkbox" id="mm" />
+                <label class="mobile-menu__line-cont" for="mm">
+                    <span class="mobile-menu__line"></span>
+                </label>
+            </div>
+        </div>
+        <section class=" js-menu-container text-bg-primary ">
+            <div class="mobile-section__cont">
+                <nav class="white fw-bold fs-1 navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="./main.html">Головна</a></li>
+                        <li class="navigation__item"><a href="./services.html">Всі пакети</a></li>
+                    </ul>
+                </nav>
+                <address class="address">
+                    <a href="tel:0682664230">Занято , не дзвонити!</a>
+                </address>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container-fluid">
+
+            </div>
+        </section>
+        <section class="characteristics">
+            <div class="container-xl">
+                <h2 class="fs-2">ХТО МИ ? </h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <article class="row characteristics__cont">
+                    <div class="card characteristics__card">
+                        <div class="card-body">
+                            <svg class="characteristics__icon ">
+                                <use xlink:href="./img/svg/antenna.svg#antenna"></use>
+                            </svg>
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+
+                    <div class="card characteristics__card">
+                        <div class="card-body">
+                            <svg class="characteristics__icon ">
+                                <use xlink:href="./img/svg/antenna.svg#antenna"></use>
+                            </svg>
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                    <a href="./services.html" type="button" class="  btn btn-danger characteristics__button ">Дізнатися
+                        пакети</a>
+                </article>
+            </div>
+        </section>
+        <section class="text-bg-primary p-3 packages">
+            <div class="container-xl grid">
+                <h2 class="fs-2 packages__title">Популярні пакети</h2>
+                <p class="packages__text"></p>
+                <article class="packages__carousel">
+                    <div class="card packages__card">
+                        <svg viewBox="0 0 70 70" class="packages__icon ">
+                            <use class="packages__logo " xlink:href="./img/svg/antenna.svg#antenna" width="100px"></use>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card packages__card">
+                        <svg viewBox="0 0 70 70" class="packages__icon ">
+                            <use class="packages__logo " xlink:href="./img/svg/antenna.svg#antenna" width="100px"></use>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card packages__card">
+                        <svg viewBox="0 0 70 70" class="packages__icon ">
+                            <use class="packages__logo " xlink:href="./img/svg/antenna.svg#antenna"></use>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__cont">
+            <div class="logo-container">
+                <a class="footer__logo-cont" href="#">
+                    <div class="spinner-border text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <h2 class=" fs-2 footer__title"> lorem</h2>
+                </a>
+            </div>
+
+            <p class="footer__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, non.</p>
+            <span class="footer__line"></span>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="./mobile-menu.js"></script>
+
+</html>
